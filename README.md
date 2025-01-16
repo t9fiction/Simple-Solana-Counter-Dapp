@@ -92,15 +92,16 @@ Ensure you have the following installed on your system:
 
 ```plaintext
 .
-├── anchor/                     # Smart contract code (Anchor framework)
-├── src/                        # Frontend source code
-│   ├── App.tsx                 # Main application component
-│   ├── _app.tsx                # Wallet wrapper
-│   ├── main.tsx                # Entry point
-│   └── index.css               # Global styles
-├── package.json                # Project dependencies and scripts
-├── tsconfig.json               # TypeScript configuration
-└── vite.config.ts              # Vite configuration
+├── counter-crud/                     # Smart contract code (Anchor framework)
+├── frontend/
+   ├── src/                        # Frontend source code
+   │   ├── App.tsx                 # Main application component
+   │   ├── _app.tsx                # Wallet wrapper
+   │   ├── main.tsx                # Entry point
+   │   └── index.css               # Global styles
+   ├── package.json                # Project dependencies and scripts
+   ├── tsconfig.json               # TypeScript configuration
+   └── vite.config.ts              # Vite configuration
 ```
 
 ---
