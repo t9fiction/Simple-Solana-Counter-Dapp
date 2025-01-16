@@ -1,0 +1,49 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+# Node.js dependencies
+/node_modules/
+/yarn.lock
+/package-lock.json
+
+# Solana build artifacts
+/target/
+/programs/**/target/
+/.migration/
+/*.so
+*.d.ts
+*.js
+
+# Anchor build artifacts
+/anchor/target/
+/anchor/*.log
+
+# Solana configuration
+/.config/solana/
+*.keypair
+*.json
+*.pem
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# MacOS system files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Other artifacts
+*.log.*
+*.lock
